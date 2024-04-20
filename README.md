@@ -1,11 +1,4 @@
 # Website-Personal-Dinda-Syabrina
-   }
-        </script>
-<script>
-        console. log ( "Hallo Selamat Datang di Website-Personal-Dinda-Syabrina") ;
-			</script>
-<script>
-Website
 <title>Dinda Syabrina Personal Website</title>
 <style type="text/css">body{background-color:rgb(144, 200, 235)}</style>
 <body>
