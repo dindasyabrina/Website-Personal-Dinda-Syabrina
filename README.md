@@ -1,6 +1,5 @@
 # Website-Personal-Dinda-Syabrina
-Hallo Selamat Datang di Website-Personal-libertina-gea
-Website
+Hallo Selamat Datang di Website-Personal-Dinda-Syabrina
 <title>Dinda Syabrina Personal Website</title>
 <style type="text/css">body{background-color:rgb(144, 200, 235)}</style>
 <body>
