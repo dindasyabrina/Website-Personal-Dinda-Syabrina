@@ -1,5 +1,5 @@
-Hallo Selamat Datang di Website-Personal-Dinda-Syabrina
-
+        console. log ( "Hallo Selamat Datang di Website-Personal-Dinda-Syabrina") ;
+			</script>
 Website
 
 <title>Dinda Syabrina Personal Website</title>
