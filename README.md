@@ -1,4 +1,7 @@
-        document.write("<h1>Hallo Selamat Datang di Website-Personal-Dinda-Syabrina</h1>");
+        console. log ( "Halo Selamat Datang di Website-Personal-Dinda-Syabrina") ;
+			</script>
+<script>
+        document.write("<h1>Halo Selamat Datang di Website-Personal-Dinda Syabrina</h1>");
 			</script>
 Website
 
