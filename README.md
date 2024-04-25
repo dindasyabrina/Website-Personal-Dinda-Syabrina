@@ -27,7 +27,6 @@
 <a href="Modul 2 Nomor 2.html">Form Perpanjangan Peminjaman Buku</a>
 <a href="Modul 3 Nomor 2.html">Pengenalan HTML dan CSS dengan Variasi CSS</a>
 <a href="Modul 4 Nomor 1.html">Form Table and Bordered</a>
-<a href="Modul 4 Nomor 2.html">Form Table and Bordered</a>
 <a href="Modul 4 Nomor 3.html">Form and Button</a>
 <a href="Modul 5.html">Form Pengenalan Javascript</a>
 
