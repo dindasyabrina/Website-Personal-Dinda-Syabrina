@@ -26,12 +26,15 @@
 <a href="Modul 2 Nomor 2.html">Form Pemesanan Buku</a>
 <a href="Modul 2 Nomor 2.html">Form Perpanjangan Peminjaman Buku</a>
 <a href="Modul 3 Nomor 2.html">Pengenalan HTML dan CSS dengan Variasi CSS</a>
+<a href="Modul 4 Nomor 1.html">Form Table and Bordered</a>
+<a href="Modul 4 Nomor 3.html">Form and Button</a>
+<a href="Modul 5.html">Form Pengenalan Javascript</a>
 
 </div>
 </body>
-</html>
+</html> 
 </nav>
-<center><h1>WELCOME TO Libraries </h1>
+<center><h1>WELCOME To The Library </h1>
 <img src="download (6).jpeg" style="width:1340px;height:300px;" align="middle">
 <hr></hr>
 <center><table border="l">
