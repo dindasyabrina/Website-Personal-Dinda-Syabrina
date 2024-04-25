@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Library</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;border-bottom:1px solid #ddd}tr:hover{background-color:#ff0}.highlight{background-color:#fff}body{background-color:#f5f5dc}</style>
+</head>
+<body>
+<h1 style="text-align: center; color: rgb(255, 0, 238); background: rgb(255, 0, 238);">Perpustakaan Suka Baca</h1>
+<h3 style="text-align: center; color: black;">Selamat datang di Perpustakaan Suka Baca. Dibawah ini merupakan beberapa koleksi buku yang dimiliki oleh Perpustakaan Suka Baca.<br> Ketik judul buku pada kolom Search untuk mempercepat pencarian!</h3>
+<table id="library-table">
+<thead>
+<tr>
+<th>Judul Buku</th>
+<th>Penulis</th>
+<th>Tahun Terbit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variasi Perilaku Manusia menurut Sidik Jarinya</td>
+<td>Kastama, Emo</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Wawasan Ekonomi Pancasila</td>
+<td>Swasono, Sri-Edi</td>
+<td>1988</td>
+</tr>
+<tr>
+<td>A handbook of Strategic Planning</td>
+<td>Bernard Taylor and Kevin Hawkins</td>
+<td>1972</td>
+</tr>
+<tr>
+<td>A Linguistic Guide to English Poetry</td>
+<td>Leech, Geoffrey N.</td>
+<td>1969</td>
+</tr>
+<tr>
+<td>Aku Ini Binatang Jalang</td>
+<td>Chairil Anwar</td>
+<td>1988</td>
+</tr>
+<tr>
+<td>Bicara Itu Ada Seninya : Rahasia Komunikasi yang Efektif</td>
+<td>Oh Su Hyang</td>
+<td>2018</td>
+</tr>
+<tr>
+<td>A reader in Mechanichal Engineering</td>
+<td>Shalif, R.</td>
+<td>1972</td>
+</tr>
+<tr>
+<td>Administrasi & Organisasi Internasional</td>
+<td>Refika Aditama</td>
+<td>1998</td>
+</tr>
+<tr>
+<td>Rich Dad Poor Dad</td>
+<td>Robert Kiyosaki</td>
+<td>1997</td>
+</tr>
+<tr>
+<td>How to Respect Myself</td>
+<td>Yoon Hong Gyun</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Jika Kita Tak Pernah Jadi Apa-Apa</td>
+<td>Alvi Syahrin</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Art of Novel</td>
+<td>Milan Kunder</td>
+<td>2002</td>
+</tr>
+<tr>
+<td>Back When We were Grownups : a novel</td>
+<td>Anne Tyler</td>
+<td>2001</td>
+</tr>
+<tr>
+<td>Seni Mengendalikan Emosi</td>
+<td>Claudia Sabrina</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Before I die : a novel</td>
+<td>Jenny Downham</td>
+<td>2007</td>
+</tr>
+<tr>
+<td>Bloomsbury aesthetics and the novels of forster and woolf</td>
+<td>David Dowling</td>
+<td>1985</td>
+</tr>
+<tr>
+<td>Buku Lengkap Kesehatan Organ Reproduksi Wanita</td>
+<td>Prayitno, Sunyonto</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Bumi Manusia : Sebuah Novel Sejarah</td>
+<td>Toer, Pramoedya Ananta: Isak, Joesoef</td>
+<td>2000</td>
+</tr>
+</tbody>
+</table>
+<script>$(document).ready(function(){$("#library-table").DataTable({paging:false,searching:true,ordering:true});$("tr").mouseover(function(){$(this).addClass("highlight");});$("tr").mouseout(function(){$(this).removeClass("highlight");});$("th").addClass("animate_animated animate_bounce");});</script>
+</body>
+</html>
